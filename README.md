@@ -7,9 +7,11 @@ You can clone and add your BDD project based on specflow creating folders for:
 -Pages
 (Don't forget to inherit the BasePage clase in your Steps and Pages, and use POM and PageFactory)
 
-To configure your environment settings you can do it by the App.config file under the TestConfiguration/testSettings tag.
+To configure your environment settings you can do it in the App.config file under the TestConfiguration/testSettings tag.
 Example:
-  <TestConfiguration>
+
+```  
+<TestConfiguration>
     <testSettings>
       <testSetting 
         name="staging" 
@@ -23,6 +25,7 @@ Example:
         />
     </testSettings>
   </TestConfiguration>
+  ```
 
 
 
